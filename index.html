@@ -1,12 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Microverse Css Challenge</title>
   </head>
   <body>
-    <h1>Hello world!</h1>
+    <header id="header">
+      <nav id="nav-bar">
+        <img
+          id="header-img"
+          src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/07/crowded-b-e1531180311672.png?auto=format&q=60&w=835&h=626.25&fit=crop&crop=faces"
+        />
+        <div class="nav-link">
+          <a href="#email"> Submit email </a>
+        </div>
+        <div class="nav-link">
+          <a href="#video"> Product video</a>
+        </div>
+        <div class="nav-link">
+          <a href="#pricing"> Pricing </a>
+        </div>
+      </nav>
+    </header>
+
+    <form id="form" action="https://www.freecodecamp.org/email-submit">
+      <input id="email" type="email" placeholder="email@gmail.com" />
+      <input type="submit" value="Submit" />
+    </form>
+    <div id="video">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/5qap5aO4i9A"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <div id="pricing">
+      <div class="product">
+        <div class="title">
+          <h1>Tenor trombone</h1>
+        </div>
+        <div class="price">
+          <h3>$200</h3>
+        </div>
+        <div class="description">
+          <p>Lorem ipsum dolor sit</p>
+          <p>Lorem ipsum dolor sit</p>
+          <p>Lorem ipsum dolor sit</p>
+        </div>
+        <div class="button">
+          <button>SELECT</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="title">
+          <h1>Tenor trombone</h1>
+        </div>
+        <div class="price">
+          <h3>$300</h3>
+        </div>
+        <div class="description">
+          <p>Lorem ipsum dolor sit</p>
+          <p>Lorem ipsum dolor sit</p>
+          <p>Lorem ipsum dolor sit</p>
+        </div>
+        <div class="button">
+          <button>SELECT</button>
+        </div>
+      </div>
+      <div class="product">
+        <div class="title">
+          <h1>Tenor trombone</h1>
+        </div>
+        <div class="price">
+          <h3>$400</h3>
+        </div>
+        <div class="description">
+          <p>Lorem ipsum dolor sit</p>
+          <p>Lorem ipsum dolor sit</p>
+          <p>Lorem ipsum dolor sit</p>
+        </div>
+        <div class="button">
+          <button>SELECT</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
